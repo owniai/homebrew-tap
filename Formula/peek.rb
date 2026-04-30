@@ -1,28 +1,28 @@
 class Peek < Formula
   desc "Multi-language code definition search powered by tree-sitter"
   homepage "https://github.com/owniai/peek"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owniai/peek/releases/download/v0.1.1/peek-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "9a704b7f0951487f7c2d3c79fb19e82791505efe84a1250f2451bfa5865f404a"
+      url "https://github.com/owniai/peek/releases/download/v0.1.2/peek-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "30649434c9fc571d8390f0b233d703c33947d765bfcbf34f7f6c98c1fbcec321"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/owniai/peek/releases/download/v0.1.1/peek-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "19163f012234483dd7aa91e70810f382ec2ae17558c56b86f992aeddd6497761"
+      url "https://github.com/owniai/peek/releases/download/v0.1.2/peek-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "be732566b4b76e2bf453d3bce1699b9bf1b0dbe37830749edcbbf403aab1787d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/owniai/peek/releases/download/v0.1.1/peek-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f0525bb810243e79010094578d7ece276942a72c7b89640ac84c02a14a93e07b"
+      url "https://github.com/owniai/peek/releases/download/v0.1.2/peek-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "abf7bd9eb4eef4e72e4d9f43cf50b3dbab6df511b0c0032a1662c904075980f9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/owniai/peek/releases/download/v0.1.1/peek-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "33f1baecdb48881261dc800c1b77b6c39f8e9af79e157bef1bae6fcc087df0ae"
+      url "https://github.com/owniai/peek/releases/download/v0.1.2/peek-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0d45d7dc5fa0d5d3fcb500d9276a573e41c3e36a5a437664205a19ce0975d5e2"
     end
   end
 
